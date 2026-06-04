@@ -8,78 +8,6 @@
     "source": "https://quran.com/"
   },
   {
-    "author_name": "Hafiz Ibn Kathir",
-    "id": 169,
-    "language_name": "english",
-    "name": "Tafsir Ibn Kathir (abridged)",
-    "slug": "en-tafisr-ibn-kathir",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Hafiz Ibn Kathir",
-    "id": 14,
-    "language_name": "arabic",
-    "name": "Tafsir Ibn Kathir",
-    "slug": "ar-tafsir-ibn-kathir",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Tawheed Publication",
-    "id": 164,
-    "language_name": "bengali",
-    "name": "Tafseer ibn Kathir",
-    "slug": "bn-tafseer-ibn-e-kaseer",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Bayaan Foundation",
-    "id": 165,
-    "language_name": "bengali",
-    "name": "Tafsir Ahsanul Bayaan",
-    "slug": "bn-tafsir-ahsanul-bayaan",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "King Fahd Quran Printing Complex",
-    "id": 166,
-    "language_name": "bengali",
-    "name": "Tafsir Abu Bakr Zakaria",
-    "slug": "bn-tafsir-abu-bakr-zakaria",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Mufti Muhammad Shafi",
-    "id": 168,
-    "language_name": "english",
-    "name": "Maarif-ul-Quran",
-    "slug": "en-tafsir-maarif-ul-quran",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Saddi",
-    "id": 170,
-    "language_name": "russian",
-    "name": "Tafseer Al Saddi",
-    "slug": "ru-tafseer-al-saddi",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Saddi",
-    "id": 91,
-    "language_name": "arabic",
-    "name": "Tafseer Al Saddi",
-    "slug": "ar-tafseer-al-saddi",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Baghawy",
-    "id": 94,
-    "language_name": "arabic",
-    "name": "Tafseer Al-Baghawi",
-    "slug": "ar-tafsir-al-baghawi",
-    "source": "https://quran.com/"
-  },
-  {
     "author_name": "Tanweer",
     "id": 92,
     "language_name": "arabic",
@@ -88,43 +16,11 @@
     "source": "https://quran.com/"
   },
   {
-    "author_name": "Waseet",
-    "id": 93,
-    "language_name": "arabic",
-    "name": "Tafsir Al Wasit",
-    "slug": "ar-tafsir-al-wasit",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Tabari",
-    "id": 15,
-    "language_name": "arabic",
-    "name": "Tafsir al-Tabari",
-    "slug": "ar-tafsir-al-tabari",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "المیسر",
-    "id": 16,
-    "language_name": "arabic",
-    "name": "Tafsir Muyassar",
-    "slug": "ar-tafsir-muyassar",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Qurtubi",
-    "id": 90,
-    "language_name": "arabic",
-    "name": "Tafseer Al Qurtubi",
-    "slug": "ar-tafseer-al-qurtubi",
-    "source": "https://quran.com/"
-  },
-  {
-    "author_name": "Rebar Kurdish Tafsir",
-    "id": 804,
-    "language_name": "Kurdish",
-    "name": "Rebar Kurdish Tafsir",
-    "slug": "kurd-tafsir-rebar",
+    "author_name": "Sayyid Ibrahim Qutb",
+    "id": 157,
+    "language_name": "urdu",
+    "name": "Fi Zilal al-Quran",
+    "slug": "ur-tafsir-fe-zalul-quran-syed-qatab",
     "source": "https://quran.com/"
   },
   {
@@ -216,11 +112,867 @@
     "source": "https://www.altafsir.com/"
   },
   {
+    "author_name": "Sinhalese Mokhtasar",
+    "id": 453,
+    "language_name": "sinhala",
+    "name": "Sinhalese Mokhtasar",
+    "slug": "sinhalese-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/453"
+  },
+  {
+    "author_name": "Tafsir Center for Quranic Studies",
+    "id": 266,
+    "language_name": "english",
+    "name": "English Al-Mukhtasar",
+    "slug": "en-tafsir-al-mukhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/266"
+  },
+  {
+    "author_name": "Tafsir As-Saadi",
+    "id": 283,
+    "language_name": "albanian",
+    "name": "Tafsir As-Saadi",
+    "slug": "sq-saadi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/283"
+  },
+  {
+    "author_name": "Japanese Abridged Explanation of the Quran",
+    "id": 265,
+    "language_name": "japanese",
+    "name": "Japanese Abridged Explanation of the Quran",
+    "slug": "japanese-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/265"
+  },
+  {
+    "author_name": "Russian Al-Mukhtasar",
+    "id": 262,
+    "language_name": "russian",
+    "name": "Russian Al-Mukhtasar",
+    "slug": "russian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/262"
+  },
+  {
+    "author_name": "Bengali Abridged Explanation of the Quran",
+    "id": 267,
+    "language_name": "bengali",
+    "name": "Bengali Abridged Explanation of the Quran",
+    "slug": "bengali-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/267"
+  },
+  {
+    "author_name": "Filipino (Tagalog) Al-Mukhtasar in interpreting the Noble Quran",
+    "id": 254,
+    "language_name": "tagalog",
+    "name": "Filipino (Tagalog) Al-Mukhtasar in interpreting the Noble Quran",
+    "slug": "tagalog-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/254"
+  },
+  {
+    "author_name": "Tafsir Ibne Kathir",
+    "id": 307,
+    "language_name": "russian",
+    "name": "Tafsir Ibne Kathir",
+    "slug": "ru-tafsir-ibne-kahtir",
+    "source": "https://qul.tarteel.ai/resources/tafsir/307"
+  },
+  {
+    "author_name": "Chinese Abridged Explanation of the Quran",
+    "id": 264,
+    "language_name": "chinese",
+    "name": "Chinese Abridged Explanation of the Quran",
+    "slug": "chinese-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/264"
+  },
+  {
+    "author_name": "Tafsir Ibne Kathir",
+    "id": 306,
+    "language_name": "turkish",
+    "name": "Tafsir Ibne Kathir",
+    "slug": "tr-tafsir-ibne-kathir",
+    "source": "https://qul.tarteel.ai/resources/tafsir/306"
+  },
+  {
+    "author_name": "Asseraj fi Bayan Gharib AlQuran",
+    "id": 250,
+    "language_name": "arabic",
+    "name": "Asseraj fi Bayan Gharib AlQuran",
+    "slug": "asseraj-fi-bayan-gharib-alquran",
+    "source": "https://qul.tarteel.ai/resources/tafsir/250"
+  },
+  {
+    "author_name": "Assamese Abridged Explanation of the Quran",
+    "id": 255,
+    "language_name": "assamese",
+    "name": "Assamese Abridged Explanation of the Quran",
+    "slug": "assamese-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/255"
+  },
+  {
+    "author_name": "Tafsir Center for Quranic Studies",
+    "id": 251,
+    "language_name": "arabic",
+    "name": "Arabic Al-Mukhtasar in interpreting the Noble Quran",
+    "slug": "ar-tafsir-al-mukhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/251"
+  },
+  {
+    "author_name": "Italian Al-Mukhtasar in interpreting the Noble Quran",
+    "id": 253,
+    "language_name": "italian",
+    "name": "Italian Al-Mukhtasar in interpreting the Noble Quran",
+    "slug": "italian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/253"
+  },
+  {
+    "author_name": "Tafsir As-Saadi",
+    "id": 310,
+    "language_name": "russian",
+    "name": "Tafsir As-Saadi",
+    "slug": "tafsir-as-saadi-russian",
+    "source": "https://qul.tarteel.ai/resources/tafsir/310"
+  },
+  {
+    "author_name": "Bosnian Abridged Explanation of the Quran",
+    "id": 252,
+    "language_name": "bosnian",
+    "name": "Bosnian Abridged Explanation of the Quran",
+    "slug": "bosnian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/252"
+  },
+  {
+    "author_name": "Malayalam Abridged Explanation of the Quran",
+    "id": 256,
+    "language_name": "malayalam",
+    "name": "Malayalam Abridged Explanation of the Quran",
+    "slug": "malayalam-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/256"
+  },
+  {
+    "author_name": "Turkish Al-Mukhtasar in Interpreting the Noble Quran",
+    "id": 258,
+    "language_name": "turkish",
+    "name": "Turkish Al-Mukhtasar in Interpreting the Noble Quran",
+    "slug": "turkish-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/258"
+  },
+  {
+    "author_name": "Khmer Abridged Explanation of the Quran",
+    "id": 257,
+    "language_name": "central khmer",
+    "name": "Khmer Abridged Explanation of the Quran",
+    "slug": "khmer-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/257"
+  },
+  {
+    "author_name": "French Abridged Explanation of the Quran",
+    "id": 259,
+    "language_name": "french",
+    "name": "French Abridged Explanation of the Quran",
+    "slug": "french-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/259"
+  },
+  {
+    "author_name": "Vietnamese Al-Mukhtasar in interpreting the Noble Quran",
+    "id": 261,
+    "language_name": "vietnamese",
+    "name": "Vietnamese Al-Mukhtasar in interpreting the Noble Quran",
+    "slug": "vietnamese-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/261"
+  },
+  {
+    "author_name": "Persian Al-Mukhtasar in interpreting the Noble Quran",
+    "id": 263,
+    "language_name": "persian",
+    "name": "Persian Al-Mukhtasar in interpreting the Noble Quran",
+    "slug": "persian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/263"
+  },
+  {
+    "author_name": "Tafsir As-Saadi",
+    "id": 308,
+    "language_name": "arabic",
+    "name": "Tafsir As-Saadi",
+    "slug": "ar-tafsir-as-saadi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/308"
+  },
+  {
+    "author_name": "Indoniesua Al-Mukhtasar in Interpreting the Noble Quran",
+    "id": 260,
+    "language_name": "indonesian",
+    "name": "Indoniesua Al-Mukhtasar in Interpreting the Noble Quran",
+    "slug": "indonesian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/260"
+  },
+  {
+    "author_name": "Iraab Al-Muyassar",
+    "id": 504,
+    "language_name": "arabic",
+    "name": "Iraab Al-Muyassar",
+    "slug": "al-i-rab-al-muyassar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/504"
+  },
+  {
+    "author_name": "Tafsir As-Saadi - Urdu",
+    "id": 309,
+    "language_name": "urdu",
+    "name": "Tafsir As-Saadi - Urdu",
+    "slug": "ur-tafsir-as-saadi-urdu",
+    "source": "https://qul.tarteel.ai/resources/tafsir/309"
+  },
+  {
+    "author_name": "Tafsir As-Saadi - Indonesian",
+    "id": 503,
+    "language_name": "indonesian",
+    "name": "Tafsir As-Saadi - Indonesian",
+    "slug": "id-tafsir-as-saadi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/503"
+  },
+  {
+    "author_name": "Tafsir Ibn Abi Zamanin",
+    "id": 499,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Abi Zamanin",
+    "slug": "tafsir-ibn-abi-zamanin",
+    "source": "https://qul.tarteel.ai/resources/tafsir/499"
+  },
+  {
+    "author_name": "Abu Bakr Jabir Al-Jazairi",
+    "id": 507,
+    "language_name": "arabic",
+    "name": "Abu Bakr Jabir Al-Jazairi",
+    "slug": "abu-bakr-jabir-al-jazairi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/507"
+  },
+  {
+    "author_name": "I'rab Al Quran li Al Darwish",
+    "id": 506,
+    "language_name": "arabic",
+    "name": "I'rab Al Quran li Al Darwish",
+    "slug": "i-rab-al-quran-li-al-darwish",
+    "source": "https://qul.tarteel.ai/resources/tafsir/506"
+  },
+  {
+    "author_name": "Nazam Al-Durar Al-Biqa'i",
+    "id": 498,
+    "language_name": "arabic",
+    "name": "Nazam Al-Durar Al-Biqa'i",
+    "slug": "nazam-al-durar-al-biqa-i",
+    "source": "https://qul.tarteel.ai/resources/tafsir/498"
+  },
+  {
+    "author_name": "Tafsir al-Tahrir wa al-Tanwir",
+    "id": 25,
+    "language_name": "arabic",
+    "name": "Tafsir al-Tahrir wa al-Tanwir",
+    "slug": "ar-tafseer-tahrir-al-tanwir",
+    "source": "https://qul.tarteel.ai/resources/tafsir/25"
+  },
+  {
+    "author_name": "Hafiz Ibn Kathir",
+    "id": 35,
+    "language_name": "english",
+    "name": "Tafsir Ibn Kathir",
+    "slug": "en-tafisr-ibn-kathir",
+    "source": "https://qul.tarteel.ai/resources/tafsir/35"
+  },
+  {
+    "author_name": "Saddi",
+    "id": 24,
+    "language_name": "arabic",
+    "name": "Tafseer Al Saadi - Arabic",
+    "slug": "ar-tafseer-al-saddi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/24"
+  },
+  {
+    "author_name": "Saddi",
+    "id": 36,
+    "language_name": "russian",
+    "name": "Tafseer Al Saadi - Russian",
+    "slug": "ru-tafseer-al-saddi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/36"
+  },
+  {
+    "author_name": "Hafiz Ibn Kathir",
+    "id": 22,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Kathir",
+    "slug": "ar-tafsir-ibn-kathir",
+    "source": "https://qul.tarteel.ai/resources/tafsir/22"
+  },
+  {
+    "author_name": "Qurtubi",
+    "id": 23,
+    "language_name": "arabic",
+    "name": "Tafseer Al Qurtubi",
+    "slug": "ar-tafseer-al-qurtubi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/23"
+  },
+  {
+    "author_name": "Baghawy",
+    "id": 27,
+    "language_name": "arabic",
+    "name": "Tafseer Al-Baghawi",
+    "slug": "ar-tafsir-al-baghawi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/27"
+  },
+  {
+    "author_name": "Tafsir Ibn Kathir",
+    "id": 30,
+    "language_name": "urdu",
+    "name": "Tafsir Ibn Kathir",
+    "slug": "tafseer-ibn-e-kaseer-urdu",
+    "source": "https://qul.tarteel.ai/resources/tafsir/30"
+  },
+  {
+    "author_name": "Fi Zilal al-Quran",
+    "id": 28,
+    "language_name": "urdu",
+    "name": "Fi Zilal al-Quran",
+    "slug": "tafsir-fe-zalul-quran-syed-qatab",
+    "source": "https://qul.tarteel.ai/resources/tafsir/28"
+  },
+  {
+    "author_name": "Tawheed Publication",
+    "id": 31,
+    "language_name": "bengali",
+    "name": "Tafseer ibn Kathir",
+    "slug": "bn-tafseer-ibn-e-kaseer",
+    "source": "https://qul.tarteel.ai/resources/tafsir/31"
+  },
+  {
+    "author_name": "Tafsir Bayan ul Quran",
+    "id": 29,
+    "language_name": "urdu",
+    "name": "Tafsir Bayan ul Quran",
+    "slug": "tafsir-bayan-ul-quran",
+    "source": "https://qul.tarteel.ai/resources/tafsir/29"
+  },
+  {
+    "author_name": "Waseet",
+    "id": 26,
+    "language_name": "arabic",
+    "name": "Tafsir Al Wasit",
+    "slug": "ar-tafsir-al-wasit",
+    "source": "https://qul.tarteel.ai/resources/tafsir/26"
+  },
+  {
+    "author_name": "Mufti Muhammad Shafi",
+    "id": 34,
+    "language_name": "english",
+    "name": "Maarif-ul-Quran",
+    "slug": "en-tafsir-maarif-ul-quran",
+    "source": "https://qul.tarteel.ai/resources/tafsir/34"
+  },
+  {
+    "author_name": "المیسر",
+    "id": 38,
+    "language_name": "arabic",
+    "name": "Tafsir Muyassar",
+    "slug": "ar-tafsir-muyassar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/38"
+  },
+  {
+    "author_name": "Tafsir Jalalayn",
+    "id": 41,
+    "language_name": "indonesian",
+    "name": "Tafsir Jalalayn",
+    "slug": "in-tafsir-jalalayn",
+    "source": "https://qul.tarteel.ai/resources/tafsir/41"
+  },
+  {
+    "author_name": "Bayaan Foundation",
+    "id": 32,
+    "language_name": "bengali",
+    "name": "Tafsir Ahsanul Bayaan",
+    "slug": "bn-tafsir-ahsanul-bayaan",
+    "source": "https://qul.tarteel.ai/resources/tafsir/32"
+  },
+  {
+    "author_name": "Tafsir Fathul Majid",
+    "id": 39,
+    "language_name": "bengali",
+    "name": "Tafsir Fathul Majid",
+    "slug": "tafisr-fathul-majid-bn",
+    "source": "https://qul.tarteel.ai/resources/tafsir/39"
+  },
+  {
+    "author_name": "King Fahd Quran Printing Complex",
+    "id": 33,
+    "language_name": "bengali",
+    "name": "Tafsir Abu Bakr Zakaria",
+    "slug": "bn-tafsir-abu-bakr-zakaria",
+    "source": "https://qul.tarteel.ai/resources/tafsir/33"
+  },
+  {
+    "author_name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+    "id": 42,
+    "language_name": "english",
+    "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+    "slug": "tazkirul-quran-en",
+    "source": "https://qul.tarteel.ai/resources/tafsir/42"
+  },
+  {
+    "author_name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+    "id": 43,
+    "language_name": "urdu",
+    "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+    "slug": "tazkiru-quran-ur",
+    "source": "https://qul.tarteel.ai/resources/tafsir/43"
+  },
+  {
+    "author_name": "Rebar Kurdish Tafsir",
+    "id": 40,
+    "language_name": "Kurdish",
+    "name": "Rebar Kurdish Tafsir",
+    "slug": "kurd-tafsir-rebar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/40"
+  },
+  {
+    "author_name": "Al-Muharrar Al-Wajiz Ibn Atiyyah",
+    "id": 509,
+    "language_name": "arabic",
+    "name": "Al-Muharrar Al-Wajiz Ibn Atiyyah",
+    "slug": "al-muharrar-al-wajiz-ibn-atiyyah",
+    "source": "https://qul.tarteel.ai/resources/tafsir/509"
+  },
+  {
+    "author_name": "Tabari",
+    "id": 37,
+    "language_name": "arabic",
+    "name": "Tafsir al-Tabari",
+    "slug": "ar-tafsir-al-tabari",
+    "source": "https://qul.tarteel.ai/resources/tafsir/37"
+  },
+  {
+    "author_name": "Al-Basit",
+    "id": 511,
+    "language_name": "arabic",
+    "name": "Al-Basit",
+    "slug": "al-basit",
+    "source": "https://qul.tarteel.ai/resources/tafsir/511"
+  },
+  {
+    "author_name": "Alrab Al-Quran li-Da'as",
+    "id": 515,
+    "language_name": "arabic",
+    "name": "Alrab Al-Quran li-Da'as",
+    "slug": "alrab-al-quran-li-da-as",
+    "source": "https://qul.tarteel.ai/resources/tafsir/515"
+  },
+  {
+    "author_name": "Tafsir Al-Nasafi",
+    "id": 514,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Nasafi",
+    "slug": "tafsir-al-nasafi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/514"
+  },
+  {
+    "author_name": "Al-Muyassar fi Al-Gharib",
+    "id": 519,
+    "language_name": "arabic",
+    "name": "Al-Muyassar fi Al-Gharib",
+    "slug": "al-muyassar-fi-al-gharib",
+    "source": "https://qul.tarteel.ai/resources/tafsir/519"
+  },
+  {
+    "author_name": "Al Lubab fi Ulum Al Kitab",
+    "id": 516,
+    "language_name": "arabic",
+    "name": "Al Lubab fi Ulum Al Kitab",
+    "slug": "al-lubab-fi-ulum-al-kitab",
+    "source": "https://qul.tarteel.ai/resources/tafsir/516"
+  },
+  {
     "author_name": "Jalal al-Din al-Mahalli and Jalal al-Din al-Suyuti",
     "id": 523,
     "language_name": "arabic",
-    "name": "Tafsir al-Jalalayn",
+    "name": "Tafsir Jalalayn",
     "slug": "ar-tafsir-al-jalalayn",
     "source": "https://qul.tarteel.ai/resources/tafsir/523"
+  },
+  {
+    "author_name": "Tafsir Al-Baydawi",
+    "id": 518,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Baydawi",
+    "slug": "tafsir-al-baydawi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/518"
+  },
+  {
+    "author_name": "Al Jadwal fi I'rab Al Quran",
+    "id": 520,
+    "language_name": "arabic",
+    "name": "Al Jadwal fi I'rab Al Quran",
+    "slug": "al-jadwal-fi-i-rab-al-quran",
+    "source": "https://qul.tarteel.ai/resources/tafsir/520"
+  },
+  {
+    "author_name": "Tafsir Al-Razi",
+    "id": 488,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Razi",
+    "slug": "tafsir-al-razi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/488"
+  },
+  {
+    "author_name": "Tafsir Al Jalalayn - English",
+    "id": 573,
+    "language_name": "english",
+    "name": "Tafsir Al Jalalayn - English",
+    "slug": "tafsir-al-jalalayn",
+    "source": "https://qul.tarteel.ai/resources/tafsir/573"
+  },
+  {
+    "author_name": "Tafsir Ibn Juzay",
+    "id": 491,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Juzay",
+    "slug": "tafsir-ibn-juzay",
+    "source": "https://qul.tarteel.ai/resources/tafsir/491"
+  },
+  {
+    "author_name": "Tafsir As-Saadi - Persian",
+    "id": 485,
+    "language_name": "persian",
+    "name": "Tafsir As-Saadi - Persian",
+    "slug": "fr-tafsir-as-saadi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/485"
+  },
+  {
+    "author_name": "Tafsir As-Saadi - Turkish",
+    "id": 484,
+    "language_name": "turkish",
+    "name": "Tafsir As-Saadi - Turkish",
+    "slug": "turkish-tafsir-as-saadi-turkish",
+    "source": "https://qul.tarteel.ai/resources/tafsir/484"
+  },
+  {
+    "author_name": "Mawsoo'at Al-Tafsir Al-Ma'thoor",
+    "id": 492,
+    "language_name": "arabic",
+    "name": "Mawsoo'at Al-Tafsir Al-Ma'thoor",
+    "slug": "mawsoo-at-al-tafsir-al-ma-thoor",
+    "source": "https://qul.tarteel.ai/resources/tafsir/492"
+  },
+  {
+    "author_name": "Tahlil Kalimat al-Qur'an",
+    "id": 487,
+    "language_name": "arabic",
+    "name": "Tahlil Kalimat al-Qur'an",
+    "slug": "tahlil-kalimat-al-qur-an",
+    "source": "https://qul.tarteel.ai/resources/tafsir/487"
+  },
+  {
+    "author_name": "Tafsir Ibn Uthaymeen",
+    "id": 486,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Uthaymeen",
+    "slug": "tafsir-ibn-uthaymeen",
+    "source": "https://qul.tarteel.ai/resources/tafsir/486"
+  },
+  {
+    "author_name": "Tafsir Makhi",
+    "id": 490,
+    "language_name": "arabic",
+    "name": "Tafsir Makhi",
+    "slug": "tafsir-makhi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/490"
+  },
+  {
+    "author_name": "Thai Mokhtasar",
+    "id": 541,
+    "language_name": "thai",
+    "name": "Thai Mokhtasar",
+    "slug": "thai-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/541"
+  },
+  {
+    "author_name": "Mahasin Al-Ta'wil Al-Qasimi",
+    "id": 524,
+    "language_name": "arabic",
+    "name": "Mahasin Al-Ta'wil Al-Qasimi",
+    "slug": "mahasin-al-ta-wil-al-qasimi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/524"
+  },
+  {
+    "author_name": "Telugu Mokhtasar",
+    "id": 540,
+    "language_name": "telugu",
+    "name": "Telugu Mokhtasar",
+    "slug": "telugu-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/540"
+  },
+  {
+    "author_name": "Uyghur Mokhtasar",
+    "id": 539,
+    "language_name": "uighur",
+    "name": "Uyghur Mokhtasar",
+    "slug": "uyghur-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/539"
+  },
+  {
+    "author_name": "Pashto Mokhtasar",
+    "id": 533,
+    "language_name": "pashto",
+    "name": "Pashto Mokhtasar",
+    "slug": "pashto-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/533"
+  },
+  {
+    "author_name": "Tafsir Al-Sam'ani",
+    "id": 529,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Sam'ani",
+    "slug": "tafsir-al-sam-ani",
+    "source": "https://qul.tarteel.ai/resources/tafsir/529"
+  },
+  {
+    "author_name": "Azeri Mokhtasar",
+    "id": 537,
+    "language_name": "azeri",
+    "name": "Azeri Mokhtasar",
+    "slug": "azeri-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/537"
+  },
+  {
+    "author_name": "Fulani Mokhtasar",
+    "id": 534,
+    "language_name": "fulah",
+    "name": "Fulani Mokhtasar",
+    "slug": "fulani-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/534"
+  },
+  {
+    "author_name": "Al-Bahr Al-Muhit",
+    "id": 526,
+    "language_name": "arabic",
+    "name": "Al-Bahr Al-Muhit",
+    "slug": "al-bahr-al-muhit",
+    "source": "https://qul.tarteel.ai/resources/tafsir/526"
+  },
+  {
+    "author_name": "Tafsir Al-Tha'alibi",
+    "id": 528,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Tha'alibi",
+    "slug": "ar-tafsir-al-tha-alibi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/528"
+  },
+  {
+    "author_name": "Uzbek Mokhtasar",
+    "id": 538,
+    "language_name": "uzbek",
+    "name": "Uzbek Mokhtasar",
+    "slug": "uzbek-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/538"
+  },
+  {
+    "author_name": "Tafsir Al-Tha'alibi",
+    "id": 527,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Tha'alibi",
+    "slug": "ar-tafsir-al-tha-alibi-527",
+    "source": "https://qul.tarteel.ai/resources/tafsir/527"
+  },
+  {
+    "author_name": "Adwa' Al-Bayan",
+    "id": 525,
+    "language_name": "arabic",
+    "name": "Adwa' Al-Bayan",
+    "slug": "adwa-al-bayan",
+    "source": "https://qul.tarteel.ai/resources/tafsir/525"
+  },
+  {
+    "author_name": "Ayah Dependency Graphs",
+    "id": 563,
+    "language_name": "arabic",
+    "name": "Ayah Dependency Graphs",
+    "slug": "ayah-dependency-graphs",
+    "source": "https://qul.tarteel.ai/resources/tafsir/563"
+  },
+  {
+    "author_name": "Serbian Mokhtasar",
+    "id": 543,
+    "language_name": "serbian",
+    "name": "Serbian Mokhtasar",
+    "slug": "serbian-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/543"
+  },
+  {
+    "author_name": "Kurdish Mokhtasar",
+    "id": 542,
+    "language_name": "kurdish",
+    "name": "Kurdish Mokhtasar",
+    "slug": "kurdish-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/542"
+  },
+  {
+    "author_name": "Al-Wajiz Wahidi",
+    "id": 489,
+    "language_name": "arabic",
+    "name": "Al-Wajiz Wahidi",
+    "slug": "al-wajiz-wahidi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/489"
+  },
+  {
+    "author_name": "Tamil Mokhtasar",
+    "id": 554,
+    "language_name": "tamil",
+    "name": "Tamil Mokhtasar",
+    "slug": "tamil-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/554"
+  },
+  {
+    "author_name": "Fath Al-Qadir Al-Shawkani",
+    "id": 494,
+    "language_name": "arabic",
+    "name": "Fath Al-Qadir Al-Shawkani",
+    "slug": "fath-al-qadir-al-shawkani",
+    "source": "https://qul.tarteel.ai/resources/tafsir/494"
+  },
+  {
+    "author_name": "Al Nashr li Ibn Al Jazari",
+    "id": 522,
+    "language_name": "arabic",
+    "name": "Al Nashr li Ibn Al Jazari",
+    "slug": "al-nashr-li-ibn-al-jazari",
+    "source": "https://qul.tarteel.ai/resources/tafsir/522"
+  },
+  {
+    "author_name": "Kyrgyz Mokhtasar",
+    "id": 536,
+    "language_name": "kyrgyz",
+    "name": "Kyrgyz Mokhtasar",
+    "slug": "kyrgyz-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/536"
+  },
+  {
+    "author_name": "Al Qira'at Al Mawsoo'ah Al Qur'aniyyah",
+    "id": 521,
+    "language_name": "arabic",
+    "name": "Al Qira'at Al Mawsoo'ah Al Qur'aniyyah",
+    "slug": "al-qira-at-al-mawsoo-ah-al-qur-aniyyah",
+    "source": "https://qul.tarteel.ai/resources/tafsir/521"
+  },
+  {
+    "author_name": "Spanish Abridged Explanation of the Quran",
+    "id": 268,
+    "language_name": "spanish",
+    "name": "Spanish Abridged Explanation of the Quran",
+    "slug": "spanish-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/268"
+  },
+  {
+    "author_name": "Tafsir Ibn Al-Jawzi",
+    "id": 496,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Al-Jawzi",
+    "slug": "tafsir-ibn-al-jawzi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/496"
+  },
+  {
+    "author_name": "Tafsir Ibn Al-Qayyim",
+    "id": 500,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Al-Qayyim",
+    "slug": "tafsir-ibn-al-qayyim",
+    "source": "https://qul.tarteel.ai/resources/tafsir/500"
+  },
+  {
+    "author_name": "Hindi Mokhtasar",
+    "id": 535,
+    "language_name": "hindi",
+    "name": "Hindi Mokhtasar",
+    "slug": "hindi-mokhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/535"
+  },
+  {
+    "author_name": "Al-Durr Al-Manthur",
+    "id": 493,
+    "language_name": "arabic",
+    "name": "Al-Durr Al-Manthur",
+    "slug": "al-durr-al-manthur",
+    "source": "https://qul.tarteel.ai/resources/tafsir/493"
+  },
+  {
+    "author_name": "Jamia Al-Bayan AlIji",
+    "id": 508,
+    "language_name": "arabic",
+    "name": "Jamia Al-Bayan AlIji",
+    "slug": "jamia-al-bayan-aliji",
+    "source": "https://qul.tarteel.ai/resources/tafsir/508"
+  },
+  {
+    "author_name": "Tafsir Al-Samarqandi",
+    "id": 513,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Samarqandi",
+    "slug": "tafsir-al-samarqandi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/513"
+  },
+  {
+    "author_name": "Tafsir Ibn Abi Hatim",
+    "id": 502,
+    "language_name": "arabic",
+    "name": "Tafsir Ibn Abi Hatim",
+    "slug": "tafsir-ibn-abi-hatim",
+    "source": "https://qul.tarteel.ai/resources/tafsir/502"
+  },
+  {
+    "author_name": "Tafsir Al-Alusi",
+    "id": 501,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Alusi",
+    "slug": "tafsir-al-alusi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/501"
+  },
+  {
+    "author_name": "Al Dur Al Masun Lil Samin Al Halabi",
+    "id": 505,
+    "language_name": "arabic",
+    "name": "Al Dur Al Masun Lil Samin Al Halabi",
+    "slug": "al-dur-al-masun-lil-samin-al-halabi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/505"
+  },
+  {
+    "author_name": "Tadabbur wa 'Amal",
+    "id": 517,
+    "language_name": "arabic",
+    "name": "Tadabbur wa 'Amal",
+    "slug": "tadabbur-wa-amal",
+    "source": "https://qul.tarteel.ai/resources/tafsir/517"
+  },
+  {
+    "author_name": "Fath Al-Bayan li Al-Qanuji",
+    "id": 495,
+    "language_name": "arabic",
+    "name": "Fath Al-Bayan li Al-Qanuji",
+    "slug": "fath-al-bayan-li-al-qanuji",
+    "source": "https://qul.tarteel.ai/resources/tafsir/495"
+  },
+  {
+    "author_name": "Tafsir Abi Al-Suaood",
+    "id": 497,
+    "language_name": "arabic",
+    "name": "Tafsir Abi Al-Suaood",
+    "slug": "tafsir-abi-al-su-ood",
+    "source": "https://qul.tarteel.ai/resources/tafsir/497"
+  },
+  {
+    "author_name": "Tafsir Al-Mawardi",
+    "id": 512,
+    "language_name": "arabic",
+    "name": "Tafsir Al-Mawardi",
+    "slug": "tafsir-al-mawardi",
+    "source": "https://qul.tarteel.ai/resources/tafsir/512"
+  },
+  {
+    "author_name": "Al-Kashshaf Al-Zamakhshari",
+    "id": 510,
+    "language_name": "arabic",
+    "name": "Al-Kashshaf Al-Zamakhshari",
+    "slug": "al-kashshaf-al-zamakhshari",
+    "source": "https://qul.tarteel.ai/resources/tafsir/510"
   }
 ]

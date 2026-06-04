@@ -1,0 +1,17 @@
+[
+  {
+    "text": "إِذَا-->ظرف زمان-->جَآءَ-->فعل-->نَصْرُ-->اسم-->ٱللَّهِ-->علم-->وَٱلْ‍‍فَتْحُ-->حرف عطف-->اسم-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مضاف إليه-->معطوف-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 1,
+    "surah": 110
+  },
+  {
+    "text": "وَرَأَيْ‍‍تَ-->حرف عطف-->فعل-->ضمير-->ٱل‍‍نَّاسَ-->اسم-->يَدْخُلُ‍‍ونَ-->فعل-->ضمير-->فِى-->حرف جر-->دِينِ-->اسم-->ٱللَّهِ-->علم-->أَفْوَاجًا-->اسم-->\n\nجار ومجرور-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مفعول به-->حال-->فاعل-->مجرور-->متعلق-->مضاف إليه-->حال-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 2,
+    "surah": 110
+  },
+  {
+    "text": "(-->إِذَا-->)-->ظرف زمان-->فَ‍‍سَبِّحْ-->حرف واقع في جواب الشرط-->فعل-->(-->أَنتَ-->)-->ضمير-->بِ‍‍حَمْدِ-->حرف جر-->اسم-->رَبِّ‍‍كَ-->اسم-->ضمير-->وَٱسْتَغْفِرْهُ-->حرف عطف-->فعل-->ضمير-->(-->أَنتَ-->)-->ضمير-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مجرور-->متعلق-->مضاف إليه-->مضاف إليه-->معطوف-->مفعول به-->فاعل-->جواب شرط-->-->إِنَّ‍‍هُۥ-->حرف نصب-->ضمير-->كَانَ-->فعل-->(-->هُوَ-->)-->ضمير-->تَوَّابًۢا-->اسم-->\n\nجملة اسمية-->\n\n-->\n\n-->\n\n-->\n\n-->اسم «ان»-->اسم «كان»-->خبر «كان»-->خبر «ان»-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 3,
+    "surah": 110
+  }
+]

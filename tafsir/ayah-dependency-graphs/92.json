@@ -1,0 +1,107 @@
+[
+  {
+    "text": "(*)-->فعل-->وَٱلَّ‍‍يْلِ-->حرف جر-->اسم-->(*)-->اسم-->إِذَا-->ظرف زمان-->يَغْشَىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->مجرور-->متعلق-->حال-->متعلق-->فاعل-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 1,
+    "surah": 92
+  },
+  {
+    "text": "(-->وَٱلَّ‍‍يْلِ-->)-->حرف جر-->اسم-->وَٱل‍‍نَّهَارِ-->حرف عطف-->اسم-->(*)-->اسم-->إِذَا-->ظرف زمان-->تَجَلَّىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->مجرور-->معطوف-->حال-->متعلق-->فاعل-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 2,
+    "surah": 92
+  },
+  {
+    "text": "وَمَا-->حرف عطف-->اسم موصول-->خَلَقَ-->فعل-->(-->هُوَ-->)-->ضمير-->ٱل‍‍ذَّكَرَ-->اسم-->وَٱلْ‍‍أُنثَىٰٓ-->حرف عطف-->اسم-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مفعول به-->معطوف-->صلة-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 3,
+    "surah": 92
+  },
+  {
+    "text": "إِنَّ-->حرف نصب-->سَعْيَ‍‍كُمْ-->اسم-->ضمير-->لَ‍‍شَتَّىٰ-->لام (أو نون المثقلة؟) التوكيد-->اسم-->\n\n-->\n\n-->\n\n-->\n\n-->اسم «ان»-->مضاف إليه-->توكيد-->خبر «ان»-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 4,
+    "surah": 92
+  },
+  {
+    "text": "فَ‍‍أَمَّا-->حرف استئنافية-->حرف تفصيل-->مَنْ-->شرطية-->أَعْطَىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->وَٱتَّقَىٰ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->وَصَدَّقَ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->بِ‍‍ٱلْ‍‍حُسْنَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->تفصيل-->فاعل-->معطوف-->فاعل-->معطوف-->فاعل-->مجرور-->متعلق-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 5,
+    "surah": 92
+  },
+  {
+    "text": "فَ‍‍أَمَّا-->حرف استئنافية-->حرف تفصيل-->مَنْ-->شرطية-->أَعْطَىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->وَٱتَّقَىٰ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->وَصَدَّقَ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->بِ‍‍ٱلْ‍‍حُسْنَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->تفصيل-->فاعل-->معطوف-->فاعل-->معطوف-->فاعل-->مجرور-->متعلق-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 6,
+    "surah": 92
+  },
+  {
+    "text": "(-->مَنْ-->)-->شرطية-->فَ‍‍سَ‍‍نُيَسِّرُهُۥ-->حرف واقع في جواب الشرط-->حرف استقبال-->فعل-->ضمير-->(-->نَحْنُ-->)-->ضمير-->لِ‍‍لْ‍‍يُسْرَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->استقبال-->مفعول به-->فاعل-->مجرور-->متعلق-->جواب شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 7,
+    "surah": 92
+  },
+  {
+    "text": "وَأَمَّا-->حرف عطف-->حرف تفصيل-->مَنۢ-->شرطية-->بَخِلَ-->فعل-->(-->هُوَ-->)-->ضمير-->وَٱسْتَغْنَىٰ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->وَكَذَّبَ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->بِ‍‍ٱلْ‍‍حُسْنَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->تفصيل-->فاعل-->معطوف-->فاعل-->معطوف-->فاعل-->مجرور-->متعلق-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 8,
+    "surah": 92
+  },
+  {
+    "text": "وَأَمَّا-->حرف عطف-->حرف تفصيل-->مَنۢ-->شرطية-->بَخِلَ-->فعل-->(-->هُوَ-->)-->ضمير-->وَٱسْتَغْنَىٰ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->وَكَذَّبَ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->بِ‍‍ٱلْ‍‍حُسْنَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->تفصيل-->فاعل-->معطوف-->فاعل-->معطوف-->فاعل-->مجرور-->متعلق-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 9,
+    "surah": 92
+  },
+  {
+    "text": "(-->مَنۢ-->)-->شرطية-->فَ‍‍سَ‍‍نُيَسِّرُهُۥ-->حرف واقع في جواب الشرط-->حرف استقبال-->فعل-->ضمير-->(-->نَحْنُ-->)-->ضمير-->لِ‍‍لْ‍‍عُسْرَىٰ-->حرف جر-->اسم-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->استقبال-->مفعول به-->فاعل-->مجرور-->متعلق-->جواب شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 10,
+    "surah": 92
+  },
+  {
+    "text": "وَمَا-->حرف استئنافية-->حرف نفي-->يُغْنِى-->فعل-->عَنْ‍‍هُ-->حرف جر-->ضمير-->مَالُ‍‍هُۥٓ-->اسم-->ضمير-->إِذَا-->ظرف زمان-->تَرَدَّىٰٓ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->نفي-->مجرور-->متعلق-->فاعل-->مضاف إليه-->فاعل-->شرط-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 11,
+    "surah": 92
+  },
+  {
+    "text": "إِنَّ-->حرف نصب-->(*)-->اسم-->عَلَيْ‍‍نَا-->حرف جر-->ضمير-->لَ‍‍لْ‍‍هُدَىٰ-->لام (أو نون المثقلة؟) التوكيد-->اسم-->\n\nجار ومجرور-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->خبر «ان»-->مجرور-->متعلق-->توكيد-->اسم «ان»-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 12,
+    "surah": 92
+  },
+  {
+    "text": "(-->إِنَّ-->)-->حرف نصب-->وَإِنَّ-->حرف عطف-->حرف نصب-->(*)-->اسم-->لَ‍‍نَا-->حرف جر-->ضمير-->لَ‍‍لْءَاخِرَةَ-->لام (أو نون المثقلة؟) التوكيد-->اسم-->وَٱلْ‍‍أُولَىٰ-->حرف عطف-->اسم-->\n\nجار ومجرور-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->معطوف-->خبر «ان»-->مجرور-->متعلق-->توكيد-->اسم «ان»-->معطوف-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 13,
+    "surah": 92
+  },
+  {
+    "text": "فَ‍‍أَنذَرْتُ‍‍كُمْ-->حرف استئنافية-->فعل-->ضمير-->ضمير-->نَارًا-->اسم-->تَلَظَّىٰ-->فعل-->(-->هِىَ-->)-->ضمير-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مفعول به-->مفعول به-->فاعل-->صفة-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 14,
+    "surah": 92
+  },
+  {
+    "text": "لَا-->حرف نفي-->يَصْلَىٰ‍‍هَآ-->فعل-->ضمير-->إِلَّا-->أداة حصر-->ٱلْ‍‍أَشْقَى-->اسم-->\n\n-->\n\n-->\n\n-->\n\n-->نفي-->مفعول به-->حصر-->فاعل-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 15,
+    "surah": 92
+  },
+  {
+    "text": "(-->ٱلْ‍‍أَشْقَى-->)-->اسم-->ٱلَّذِى-->اسم موصول-->كَذَّبَ-->فعل-->(-->هُوَ-->)-->ضمير-->وَتَوَلَّىٰ-->حرف عطف-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->صفة-->فاعل-->معطوف-->فاعل-->صلة-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 16,
+    "surah": 92
+  },
+  {
+    "text": "وَسَ‍‍يُجَنَّبُ‍‍هَا-->حرف عطف-->حرف استقبال-->فعل-->ضمير-->ٱلْ‍‍أَتْقَى-->اسم-->\n\n-->\n\n-->\n\n-->استقبال-->مفعول به-->نائب فاعل-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 17,
+    "surah": 92
+  },
+  {
+    "text": "(-->ٱلْ‍‍أَتْقَى-->)-->اسم-->ٱلَّذِى-->اسم موصول-->يُؤْتِى-->فعل-->(-->هُوَ-->)-->ضمير-->مَالَ‍‍هُۥ-->اسم-->ضمير-->يَتَزَكَّىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجملة فعلية-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->صفة-->فاعل-->مفعول به-->مضاف إليه-->فاعل-->حال-->صلة-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 18,
+    "surah": 92
+  },
+  {
+    "text": "وَمَا-->حرف عطف-->حرف نفي-->لِ‍‍أَحَدٍ-->حرف جر-->اسم-->(*)-->اسم-->عِندَهُۥ-->ظرف مكان-->ضمير-->مِن-->حرف جر-->نِّعْمَةٍ-->اسم-->تُجْزَىٰٓ-->فعل-->(-->هِىَ-->)-->ضمير-->\n\nجار ومجرور-->\n\nجار ومجرور-->\n\nجملة فعلية-->\n\nجملة اسمية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->مجرور-->متعلق-->مضاف إليه-->مجرور-->متعلق-->خبر-->نائب فاعل-->صفة-->نفي-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 19,
+    "surah": 92
+  },
+  {
+    "text": "إِلَّا-->أداة استثناء-->ٱبْتِغَآءَ-->اسم-->وَجْهِ-->اسم-->رَبِّ‍‍هِ-->اسم-->ضمير-->ٱلْ‍‍أَعْلَىٰ-->نعت-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->مستثني-->مضاف إليه-->مضاف إليه-->مضاف إليه-->صفة-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 20,
+    "surah": 92
+  },
+  {
+    "text": "وَلَ‍‍سَوْفَ-->حرف عطف-->لام (أو نون المثقلة؟) التوكيد-->حرف استقبال-->يَرْضَىٰ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\n-->\n\n-->\n\n-->توكيد-->استقبال-->فاعل-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 21,
+    "surah": 92
+  }
+]
