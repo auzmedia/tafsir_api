@@ -20,7 +20,7 @@ Welcome to the Tafsir API repository, a comprehensive collection of Quran Tafsir
 - **Free & Lightning-Fast**: Our API provides free access to Quran Tafsirs with blazing-fast response times.
 - **No Rate Limits**: There are no rate limits imposed on API usage, ensuring unrestricted access to the content.
 - **Multilingual Support**: The API offers Tafsirs in various languages.
-- **28 Tafsirs**: Access 28 different Tafsirs to explore Quranic interpretations.
+- **30 Tafsirs**: Access 30 different Tafsirs to explore Quranic interpretations.
 
 ## URL Structure:
 
@@ -108,6 +108,8 @@ Then upload/serve the `data/` folder from your own static hosting (Nginx, Cloudf
 | 26 | Dr. Israr Ahmad                                    | 159 | urdu          | Tafsir Bayan ul Quran                   | ur-tafsir-bayan-ul-quran       | https://quran.com/                          |
 | 27 | Maulana Wahid Uddin Khan                           | 818 | urdu          | Tazkirul Quran(Maulana Wahiduddin Khan) | ur-tazkirul-quran              | https://quran.com/                          |
 | 28 | Jalal al-Din al-Mahalli and Jalal al-Din al-Suyuti | 523 | arabic        | Tafsir al-Jalalayn                      | ar-tafsir-al-jalalayn          | https://qul.tarteel.ai/resources/tafsir/523 |
+| 29 | Tafsir Center for Quranic Studies                  | 251 | arabic        | Al-Mukhtasar in Tafsir                  | ar-tafsir-al-mukhtasar         | https://qul.tarteel.ai/resources/tafsir/251 |
+| 30 | Tafsir Center for Quranic Studies                  | 266 | english       | Al-Mukhtasar in Tafsir                  | en-tafsir-al-mukhtasar         | https://qul.tarteel.ai/resources/tafsir/266 |
 
 ## Share:
 

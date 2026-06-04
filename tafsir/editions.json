@@ -222,5 +222,21 @@
     "name": "Tafsir al-Jalalayn",
     "slug": "ar-tafsir-al-jalalayn",
     "source": "https://qul.tarteel.ai/resources/tafsir/523"
+  },
+  {
+    "author_name": "Tafsir Center for Quranic Studies",
+    "id": 251,
+    "language_name": "arabic",
+    "name": "Al-Mukhtasar in Tafsir",
+    "slug": "ar-tafsir-al-mukhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/251"
+  },
+  {
+    "author_name": "Tafsir Center for Quranic Studies",
+    "id": 266,
+    "language_name": "english",
+    "name": "Al-Mukhtasar in Tafsir",
+    "slug": "en-tafsir-al-mukhtasar",
+    "source": "https://qul.tarteel.ai/resources/tafsir/266"
   }
 ]
