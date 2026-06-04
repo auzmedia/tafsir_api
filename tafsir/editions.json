@@ -214,5 +214,13 @@
     "name": "Al-Jalalayn",
     "slug": "en-al-jalalayn",
     "source": "https://www.altafsir.com/"
+  },
+  {
+    "author_name": "Jalal al-Din al-Mahalli and Jalal al-Din al-Suyuti",
+    "id": 523,
+    "language_name": "arabic",
+    "name": "Tafsir al-Jalalayn",
+    "slug": "ar-tafsir-al-jalalayn",
+    "source": "https://qul.tarteel.ai/resources/tafsir/523"
   }
 ]
