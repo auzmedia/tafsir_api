@@ -1,0 +1,5 @@
+{
+  "text": "خُذُوهُ-->فعل-->ضمير-->ضمير-->فَ‍‍غُلُّ‍‍وهُ-->حرف عطف-->فعل-->ضمير-->ضمير-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->مفعول به-->معطوف-->فاعل-->مفعول به-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+  "ayah": 30,
+  "surah": 69
+}

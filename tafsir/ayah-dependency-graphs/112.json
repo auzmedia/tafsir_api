@@ -1,0 +1,22 @@
+[
+  {
+    "text": "قُلْ-->فعل-->(-->أَنتَ-->)-->ضمير-->هُوَ-->ضمير-->ٱللَّهُ-->علم-->أَحَدٌ-->اسم-->\n\nجملة اسمية-->\n\n-->\n\n-->\n\n-->\n\n-->فاعل-->خبر-->بدل-->مفعول به-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 1,
+    "surah": 112
+  },
+  {
+    "text": "ٱللَّهُ-->علم-->ٱل‍‍صَّمَدُ-->اسم-->\n\n-->خبر-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 2,
+    "surah": 112
+  },
+  {
+    "text": "لَمْ-->حرف نفي-->يَلِدْ-->فعل-->(-->هُوَ-->)-->ضمير-->وَلَمْ-->حرف عطف-->حرف نفي-->يُولَدْ-->فعل-->(-->هُوَ-->)-->ضمير-->\n\nجملة فعلية-->\n\nجملة فعلية-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->نفي-->فاعل-->نفي-->نائب فاعل-->معطوف-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 3,
+    "surah": 112
+  },
+  {
+    "text": "وَلَمْ-->حرف عطف-->حرف نفي-->يَكُن-->فعل-->لَّ‍‍هُۥ-->حرف جر-->ضمير-->كُفُوًا-->اسم-->أَحَدٌۢ-->اسم-->\n\nجار ومجرور-->\n\n-->\n\n-->\n\n-->\n\n-->\n\n-->نفي-->مجرور-->متعلق-->خبر «يكن»-->اسم «يكن»-->-->\n\n.tree-bank-container {\ndirection: ltr;\n}\n.tree-bank-container [font-family=\"hafs\"] {\nfont-family: 'hafs-qc'\n}\n.tree-bank-container [font-family=\"Times New Roman\"] {\nfont-family: 'Kitab'\n}\n@font-face {\nfont-family: 'hafs-qc';\nsrc: url('https://fonts.nuqayah.com/hafs-qc.woff2');\n}",
+    "ayah": 4,
+    "surah": 112
+  }
+]
