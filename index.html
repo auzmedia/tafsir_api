@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>📖 Qur'on Tafsirlari – Ro'yxat va Izlash</title>
+    <title>📖 Qur'on Tafsirlari – To‘liq versiya</title>
 
     <style>
-        /* ===== GLOBAL ===== */
         * {
             margin: 0;
             padding: 0;
@@ -27,13 +26,12 @@
             background: white;
             border-radius: 1.5rem;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
-            overflow: hidden;
             display: flex;
             flex-direction: column;
             min-height: 85vh;
+            overflow: hidden;
         }
 
-        /* ===== HEADER ===== */
         .header {
             display: flex;
             align-items: center;
@@ -63,14 +61,13 @@
             font-weight: 500;
         }
 
-        /* ===== MAIN LAYOUT (2 columns) ===== */
         .main-layout {
             display: flex;
             flex: 1;
             min-height: 600px;
         }
 
-        /* ===== SIDEBAR (Surah list) ===== */
+        /* Sidebar */
         .sidebar {
             width: 300px;
             min-width: 260px;
@@ -97,7 +94,8 @@
         }
 
         .sidebar select,
-        .sidebar input[type="text"] {
+        .sidebar input[type="text"],
+        .sidebar input[type="number"] {
             width: 100%;
             padding: 0.5rem 0.7rem;
             border: 1px solid #d1d9e6;
@@ -193,7 +191,7 @@
             font-size: 0.9rem;
         }
 
-        /* ===== CONTENT (Tafsir panel) ===== */
+        /* Content */
         .content {
             flex: 1;
             padding: 1.5rem 2rem 2rem;
@@ -202,18 +200,18 @@
             background: white;
         }
 
-        .content .status {
+        .status {
             font-size: 0.9rem;
             color: #475569;
             min-height: 1.8rem;
             margin-bottom: 0.5rem;
         }
 
-        .content .status .loading {
+        .status .loading {
             color: #1e4a6b;
             font-weight: 500;
         }
-        .content .status .error {
+        .status .error {
             color: #b91c1c;
             background: #fef2f2;
             padding: 0.2rem 1rem;
@@ -221,7 +219,6 @@
             display: inline-block;
         }
 
-        /* Search inside tafsir */
         .tafsir-search-box {
             margin-bottom: 1.2rem;
             display: flex;
@@ -265,7 +262,6 @@
             background: #d1d9e6;
         }
 
-        /* Meta info */
         .meta-info {
             display: flex;
             flex-wrap: wrap;
@@ -283,7 +279,6 @@
             font-weight: 600;
         }
 
-        /* Tafsir items */
         .tafsir-list {
             display: flex;
             flex-direction: column;
@@ -346,7 +341,6 @@
             margin-bottom: 0.5rem;
         }
 
-        /* ===== FOOTER ===== */
         .footer {
             padding: 1rem 2rem;
             border-top: 1px solid #e9edf3;
@@ -355,15 +349,16 @@
             text-align: center;
             background: #fafcff;
         }
+
         .footer a {
             color: #1e4a6b;
             text-decoration: none;
         }
+
         .footer a:hover {
             text-decoration: underline;
         }
 
-        /* ===== RESPONSIVE ===== */
         @media (max-width: 820px) {
             .main-layout {
                 flex-direction: column;
@@ -411,23 +406,18 @@
 <body>
 
     <div class="app">
-
-        <!-- ===== HEADER ===== -->
         <div class="header">
             <h1>📖 Qur'on Tafsirlari</h1>
-            <span class="badge">114 sura · ro‘yxat + izlash</span>
+            <span class="badge">114 sura · barcha tafsirlar</span>
         </div>
 
-        <!-- ===== MAIN LAYOUT ===== -->
         <div class="main-layout">
 
-            <!-- ===== SIDEBAR: Surah list with search ===== -->
+            <!-- Sidebar -->
             <div class="sidebar">
                 <div class="control-group">
                     <label for="editionSelect">📚 Tafsir nashri</label>
-                    <select id="editionSelect">
-                        <option value="">Yuklanmoqda…</option>
-                    </select>
+                    <select id="editionSelect"><option value="">Yuklanmoqda…</option></select>
                 </div>
 
                 <div class="control-group">
@@ -436,30 +426,25 @@
                 </div>
 
                 <div class="surah-list-container" id="surahListContainer">
-                    <!-- JavaScript to‘ldiradi -->
                     <div class="no-result">Yuklanmoqda...</div>
                 </div>
             </div>
 
-            <!-- ===== CONTENT: Tafsir display with search ===== -->
+            <!-- Content -->
             <div class="content" id="contentPanel">
-                <!-- Status -->
                 <div class="status" id="status">Tafsir ko‘rish uchun surani bosing.</div>
 
-                <!-- Search inside tafsir -->
                 <div class="tafsir-search-box">
                     <input type="text" id="tafsirSearch" placeholder="📝 Tafsir matnidan qidirish..." />
                     <button class="clear-btn" id="clearTafsirSearch">Tozalash</button>
                 </div>
 
-                <!-- Meta info -->
                 <div class="meta-info" id="metaInfo">
                     <span><strong>Nashr:</strong> <span id="metaEdition">—</span></span>
                     <span><strong>Surah:</strong> <span id="metaSurah">—</span></span>
                     <span><strong>Oyatlar:</strong> <span id="metaAyahs">—</span></span>
                 </div>
 
-                <!-- Tafsir container -->
                 <div id="tafsirContainer">
                     <div class="empty-state">
                         <div class="icon">🕌</div>
@@ -469,9 +454,8 @@
             </div>
         </div>
 
-        <!-- ===== FOOTER ===== -->
         <div class="footer">
-            Maʼlumotlar <a href="https://github.com/auzmedia/tafsir_api" target="_blank" rel="noopener">auzmedia/tafsir_api</a> dan olindi.
+            Maʼlumotlar <a href="https://github.com/auzmedia/tafsir_api" target="_blank">auzmedia/tafsir_api</a> dan olindi.
         </div>
     </div>
 
@@ -479,7 +463,7 @@
         (function() {
             'use strict';
 
-            // ---- DOM elementlar ----
+            // ---- DOM ----
             const editionSelect = document.getElementById('editionSelect');
             const surahSearch = document.getElementById('surahSearch');
             const surahListContainer = document.getElementById('surahListContainer');
@@ -491,10 +475,10 @@
             const metaAyahs = document.getElementById('metaAyahs');
             const tafsirContainer = document.getElementById('tafsirContainer');
 
-            // ---- API manzili ----
+            // ---- API manzili (to‘g‘rilangan) ----
             const BASE_URL = 'https://cdn.jsdelivr.net/gh/auzmedia/tafsir_api@main/tafsir';
 
-            // ---- O‘zbekcha 114 sura nomi ----
+            // ---- O‘zbekcha sura nomlari (114) ----
             const SURAH_NAMES_UZ = [
                 '', 'Al-Fotiha', 'Baqara', 'Oli Imron', 'Niso', 'Moida',
                 'An\'om', 'A\'rof', 'Anfol', 'Tavba', 'Yunus', 'Hud', 'Yusuf',
@@ -520,10 +504,9 @@
             // ---- Holat ----
             let currentEdition = null;
             let currentSurah = 1;
-            let allEditions = [];
             let ayahsData = [];
 
-            // ---- Yordamchi: matnni xavfsiz chiqarish ----
+            // ---- Yordamchi ----
             function escapeHtml(text) {
                 if (!text) return '';
                 const div = document.createElement('div');
@@ -531,7 +514,6 @@
                 return div.innerHTML;
             }
 
-            // ---- Status ----
             function setStatus(msg, isError = false) {
                 statusEl.innerHTML = msg;
                 statusEl.className = 'status';
@@ -543,12 +525,10 @@
             function renderSurahList(filterText = '') {
                 const q = filterText.trim().toLowerCase();
                 let html = '';
-
                 for (let i = 1; i <= 114; i++) {
                     const name = SURAH_NAMES_UZ[i] || `Surah ${i}`;
                     const match = (i.toString() === q) || name.toLowerCase().includes(q) || q === '';
                     if (!match) continue;
-
                     const active = (i === currentSurah) ? 'active' : '';
                     html += `
                         <div class="surah-item ${active}" data-surah="${i}">
@@ -558,25 +538,18 @@
                         </div>
                     `;
                 }
-
                 if (!html) {
                     html = `<div class="no-result">❌ «${escapeHtml(filterText)}» bo‘yicha sura topilmadi.</div>`;
                 }
-
                 surahListContainer.innerHTML = html;
 
-                // Har bir sura ustiga click event
                 document.querySelectorAll('.surah-item').forEach(el => {
                     el.addEventListener('click', function() {
                         const surah = parseInt(this.dataset.surah, 10);
                         if (!isNaN(surah) && surah !== currentSurah) {
                             currentSurah = surah;
-                            // Ixtiyoriy: qidiruv maydonini tozalab, sura nomini ko‘rsatish
-                            // Surah raqamini inputga yozamiz (yoki yo‘q)
                             fetchTafsir(editionSelect.value, surah);
-                            // Ro‘yxatni yangilab, aktiv holatni ko‘rsatish
                             renderSurahList(surahSearch.value);
-                            // Aktiv elementga skroll qilish
                             const activeEl = document.querySelector('.surah-item.active');
                             if (activeEl) activeEl.scrollIntoView({ block: 'nearest' });
                         }
@@ -584,13 +557,12 @@
                 });
             }
 
-            // ---- Tafsirni yuklash va ko‘rsatish ----
+            // ---- Tafsirni yuklash ----
             async function fetchTafsir(slug, surahNumber) {
                 if (!slug) {
                     setStatus('⚠️ Iltimos, tafsir nashrini tanlang.', true);
                     return;
                 }
-
                 const surah = parseInt(surahNumber, 10);
                 if (isNaN(surah) || surah < 1 || surah > 114) {
                     setStatus('⚠️ Surah raqami 1–114 oralig‘ida bo‘lishi kerak.', true);
@@ -602,31 +574,77 @@
                 tafsirContainer.innerHTML = `<div class="empty-state"><div class="icon">⏳</div><p>Yuklanmoqda...</p></div>`;
 
                 try {
-                    const url = `${BASE_URL}/${slug}/${surah}.json`;
+                    // To‘g‘ri URL: /{slug}/{surah}/{surah}.json
+                    const url = `${BASE_URL}/${slug}/${surah}/${surah}.json`;
                     const resp = await fetch(url);
                     if (!resp.ok) {
                         if (resp.status === 404) throw new Error(`Bu nashrda ${surah}-surah tafsiri mavjud emas.`);
                         throw new Error(`HTTP ${resp.status}`);
                     }
-
                     const data = await resp.json();
-                    if (!data.ayahs || data.ayahs.length === 0) {
+                    // API har bir oyat uchun alohida JSON qaytaradi, lekin biz bitta faylni oldik.
+                    // Agar fayl faqat bitta oyat bo‘lsa, uni arrayga aylantiramiz.
+                    // Ba'zi nashrlarda bitta faylda faqat bitta oyat bo‘ladi.
+                    // Biz uni ayahsData ga to‘g‘ridan-to‘g‘ri qo‘yamiz, lekin array shaklida.
+                    // Agar data.ayah mavjud bo‘lsa, demak bu bitta oyat.
+                    // Ba'zan butun sura uchun bitta fayl bo‘lishi mumkin, lekin bu yerda har bir oyat alohida fayl.
+                    // Shuning uchun biz data ni o‘z holicha ishlatamiz.
+                    // Lekin, biz har bir oyat uchun alohida fayl bo‘lsa, ularni ketma-ket yuklash kerak.
+                    // Lekin hozircha biz faqat bitta faylni yuklaymiz va u bitta oyatni beradi.
+                    // Agar sura 7 oyat bo‘lsa, 7 ta fayl bor. Biz ularning hammasini yuklashimiz kerak.
+                    // Buning uchun biz 1 dan N gacha bo‘lgan oyatlarni bilmaymiz, lekin sura oyatlari soni ma'lum emas.
+                    // Shuning uchun biz API dan foydalanib, har bir oyatni alohida yuklaymiz.
+                    // Qulayroq usul: sura papkasidagi barcha json fayllarni yuklab olish.
+                    // Biz bu yerda bitta faylni yukladik. Agar bu bitta oyat bo‘lsa, uni ko‘rsatamiz.
+                    // Lekin ko‘p nashrlarda har bir oyat alohida fayl. Shuning uchun biz 1 dan 286 gacha (Baqara) ni sinab ko‘ramiz.
+                    // Buni optimallashtirish uchun biz sura uchun mavjud oyatlar ro‘yxatini olishimiz kerak.
+                    // Hozircha biz oddiy usulni qo‘llaymiz: sura papkasidagi barcha fayllarni olish uchun biz papka tarkibini bilmaymiz.
+                    // Shuning uchun biz birinchi marta yuklangan fayldan surah va ayah ni olamiz, keyin esa 1 dan 286 gacha sinab ko‘ramiz.
+                    // Ammo bu samarasiz. Yaxshiroq yechim: ayah sonini bilish uchun biz sura haqida ma'lumot olishimiz kerak.
+                    // Keling, oddiyroq usul: har bir oyat uchun alohida so‘rov yuboramiz, toki 404 chiqmaguncha.
+                    // Buni amalga oshiramiz.
+                    // Biz data ni birinchi fayldan olamiz, undan surah va ayah ni bilamiz.
+                    // Keyin ayah ni 1 dan boshlab, har birini so‘raymiz.
+                    // Bu ko‘p so‘rov bo‘lishi mumkin, lekin ishlaydi.
+                    // Optimallashtirish uchun biz parallel so‘rovlar yuborishimiz mumkin.
+
+                    // Keling, sura uchun barcha oyatlarni yuklaymiz.
+                    // Buning uchun biz sura nomini bilamiz, lekin oyatlar sonini bilmaymiz.
+                    // Biz 1 dan 286 gacha (maksimal oyat soni) sinab ko‘ramiz.
+                    const ayahs = [];
+                    const maxAyah = 286; // Baqara eng ko‘p oyat
+                    for (let ayah = 1; ayah <= maxAyah; ayah++) {
+                        const ayahUrl = `${BASE_URL}/${slug}/${surah}/${ayah}.json`;
+                        try {
+                            const respAyah = await fetch(ayahUrl);
+                            if (respAyah.ok) {
+                                const ayahData = await respAyah.json();
+                                ayahs.push(ayahData);
+                            } else {
+                                // Agar 404 bo‘lsa, keyingi oyatlar ham bo‘lmasligi mumkin, lekin ba'zan sura oralig‘ida bo‘shliq bo‘lishi mumkin.
+                                // Biz 404 ni to‘xtatish uchun ishlatamiz, chunki odatda ketma-ket raqamlangan.
+                                if (respAyah.status === 404) break;
+                            }
+                        } catch (e) {
+                            break;
+                        }
+                    }
+
+                    if (ayahs.length === 0) {
                         throw new Error('Hech qanday oyat tafsiri topilmadi.');
                     }
 
-                    ayahsData = data.ayahs;
+                    ayahsData = ayahs;
 
-                    // Meta ma'lumot
+                    // Meta
                     const editionName = editionSelect.options[editionSelect.selectedIndex]?.text.split(' (')[0] || slug;
                     metaEdition.textContent = editionName;
                     metaSurah.textContent = `${surah}. ${SURAH_NAMES_UZ[surah] || 'Surah'}`;
                     metaAyahs.textContent = ayahsData.length;
 
-                    // Tafsir matnini chizish
                     renderTafsir(tafsirSearch.value);
-
                     setStatus(`✅ ${ayahsData.length} ta oyat ko‘rsatilmoqda.`);
-                    renderSurahList(surahSearch.value); // ro‘yxatdagi aktivlikni yangilash
+                    renderSurahList(surahSearch.value);
 
                 } catch (err) {
                     console.error(err);
@@ -644,28 +662,23 @@
                 }
             }
 
-            // ---- Tafsirni chizish + matn ichida qidirish ----
+            // ---- Tafsirni ko‘rsatish ----
             function renderTafsir(searchTerm = '') {
                 const term = searchTerm.trim().toLowerCase();
                 let html = '<div class="tafsir-list">';
-
                 ayahsData.forEach((item) => {
                     const text = item.text || '(Tafsir matni mavjud emas)';
                     let displayText = escapeHtml(text);
-                    let match = false;
-
+                    let match = true;
                     if (term) {
                         const lowerText = text.toLowerCase();
                         if (lowerText.includes(term)) {
-                            match = true;
-                            // Highlight qilish
                             const regex = new RegExp(`(${escapeHtml(term)})`, 'gi');
                             displayText = displayText.replace(regex, '<span class="highlight">$1</span>');
+                        } else {
+                            match = false;
                         }
-                    } else {
-                        match = true; // qidiruv yo‘q, hammasini ko‘rsat
                     }
-
                     const hiddenClass = match ? '' : 'hidden-by-search';
                     html += `
                         <div class="tafsir-item ${hiddenClass}">
@@ -674,16 +687,8 @@
                         </div>
                     `;
                 });
-
                 html += '</div>';
-
-                if (!ayahsData.length) {
-                    html = `<div class="empty-state"><div class="icon">📭</div><p>Hozircha tafsir mavjud emas.</p></div>`;
-                }
-
                 tafsirContainer.innerHTML = html;
-
-                // Agar qidiruv natijasida hech narsa topilmasa, xabar chiqaramiz
                 if (term && !document.querySelector('.tafsir-item:not(.hidden-by-search)')) {
                     const emptyMsg = document.createElement('div');
                     emptyMsg.className = 'empty-state';
@@ -699,36 +704,27 @@
                     setStatus('⏳ Tafsir nashrlari yuklanmoqda…');
                     const resp = await fetch(`${BASE_URL}/editions.json`);
                     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                    allEditions = await resp.json();
-
-                    allEditions.sort((a, b) => a.language_name.localeCompare(b.language_name) || a.name.localeCompare(b.name));
+                    const editions = await resp.json();
+                    editions.sort((a, b) => a.language_name.localeCompare(b.language_name) || a.name.localeCompare(b.name));
 
                     editionSelect.innerHTML = '';
                     let firstSlug = null;
-
-                    allEditions.forEach((ed) => {
+                    editions.forEach((ed) => {
                         const opt = document.createElement('option');
                         opt.value = ed.slug;
                         opt.textContent = `${ed.name} (${ed.language_name}) — ${ed.author_name}`;
                         editionSelect.appendChild(opt);
                         if (!firstSlug) firstSlug = ed.slug;
                     });
-
                     if (firstSlug) {
                         editionSelect.value = firstSlug;
                         currentEdition = firstSlug;
                     }
-
-                    setStatus(`✅ ${allEditions.length} ta nashr yuklandi.`);
-
-                    // Surah ro‘yxatini chizish
+                    setStatus(`✅ ${editions.length} ta nashr yuklandi.`);
                     renderSurahList('');
-
-                    // Avtomatik 1-surahni yuklash
                     if (editionSelect.value) {
                         await fetchTafsir(editionSelect.value, 1);
                     }
-
                 } catch (err) {
                     console.error(err);
                     setStatus('❌ Nashrlarni yuklashda xatolik. Sahifani yangilang.', true);
@@ -736,25 +732,19 @@
                 }
             }
 
-            // ---- Event bog‘lash ----
-            // 1. Nashr o‘zgarganda
+            // ---- Voqealar ----
             editionSelect.addEventListener('change', function() {
-                if (this.value) {
-                    fetchTafsir(this.value, currentSurah);
-                }
+                if (this.value) fetchTafsir(this.value, currentSurah);
             });
 
-            // 2. Surah qidirish maydoni
             surahSearch.addEventListener('input', function() {
                 renderSurahList(this.value);
             });
 
-            // 3. Tafsir matnidan qidirish
             tafsirSearch.addEventListener('input', function() {
                 renderTafsir(this.value);
             });
 
-            // 4. Qidiruvni tozalash
             clearTafsirBtn.addEventListener('click', function() {
                 tafsirSearch.value = '';
                 renderTafsir('');
@@ -762,7 +752,6 @@
 
             // ---- Ishga tushirish ----
             loadEditions();
-
         })();
     </script>
 
