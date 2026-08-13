@@ -475,7 +475,7 @@
             const metaAyahs = document.getElementById('metaAyahs');
             const tafsirContainer = document.getElementById('tafsirContainer');
 
-            // ---- API manzili (to‘g‘rilangan) ----
+            // ---- API manzili ----
             const BASE_URL = 'https://cdn.jsdelivr.net/gh/auzmedia/tafsir_api@main/tafsir';
 
             // ---- O‘zbekcha sura nomlari (114) ----
@@ -557,7 +557,7 @@
                 });
             }
 
-            // ---- Tafsirni yuklash ----
+            // ---- Tafsirni yuklash (To‘g‘ridan-to‘g‘ri sura json faylidan) ----
             async function fetchTafsir(slug, surahNumber) {
                 if (!slug) {
                     setStatus('⚠️ Iltimos, tafsir nashrini tanlang.', true);
@@ -574,69 +574,35 @@
                 tafsirContainer.innerHTML = `<div class="empty-state"><div class="icon">⏳</div><p>Yuklanmoqda...</p></div>`;
 
                 try {
-                    // To‘g‘ri URL: /{slug}/{surah}/{surah}.json
-                    const url = `${BASE_URL}/${slug}/${surah}/${surah}.json`;
+                    // To‘g‘ridan-to‘g‘ri to‘liq sura json faylini yuklash: {BASE_URL}/{slug}/{surah}.json
+                    const url = `${BASE_URL}/${slug}/${surah}.json`;
                     const resp = await fetch(url);
                     if (!resp.ok) {
                         if (resp.status === 404) throw new Error(`Bu nashrda ${surah}-surah tafsiri mavjud emas.`);
                         throw new Error(`HTTP ${resp.status}`);
                     }
                     const data = await resp.json();
-                    // API har bir oyat uchun alohida JSON qaytaradi, lekin biz bitta faylni oldik.
-                    // Agar fayl faqat bitta oyat bo‘lsa, uni arrayga aylantiramiz.
-                    // Ba'zi nashrlarda bitta faylda faqat bitta oyat bo‘ladi.
-                    // Biz uni ayahsData ga to‘g‘ridan-to‘g‘ri qo‘yamiz, lekin array shaklida.
-                    // Agar data.ayah mavjud bo‘lsa, demak bu bitta oyat.
-                    // Ba'zan butun sura uchun bitta fayl bo‘lishi mumkin, lekin bu yerda har bir oyat alohida fayl.
-                    // Shuning uchun biz data ni o‘z holicha ishlatamiz.
-                    // Lekin, biz har bir oyat uchun alohida fayl bo‘lsa, ularni ketma-ket yuklash kerak.
-                    // Lekin hozircha biz faqat bitta faylni yuklaymiz va u bitta oyatni beradi.
-                    // Agar sura 7 oyat bo‘lsa, 7 ta fayl bor. Biz ularning hammasini yuklashimiz kerak.
-                    // Buning uchun biz 1 dan N gacha bo‘lgan oyatlarni bilmaymiz, lekin sura oyatlari soni ma'lum emas.
-                    // Shuning uchun biz API dan foydalanib, har bir oyatni alohida yuklaymiz.
-                    // Qulayroq usul: sura papkasidagi barcha json fayllarni yuklab olish.
-                    // Biz bu yerda bitta faylni yukladik. Agar bu bitta oyat bo‘lsa, uni ko‘rsatamiz.
-                    // Lekin ko‘p nashrlarda har bir oyat alohida fayl. Shuning uchun biz 1 dan 286 gacha (Baqara) ni sinab ko‘ramiz.
-                    // Buni optimallashtirish uchun biz sura uchun mavjud oyatlar ro‘yxatini olishimiz kerak.
-                    // Hozircha biz oddiy usulni qo‘llaymiz: sura papkasidagi barcha fayllarni olish uchun biz papka tarkibini bilmaymiz.
-                    // Shuning uchun biz birinchi marta yuklangan fayldan surah va ayah ni olamiz, keyin esa 1 dan 286 gacha sinab ko‘ramiz.
-                    // Ammo bu samarasiz. Yaxshiroq yechim: ayah sonini bilish uchun biz sura haqida ma'lumot olishimiz kerak.
-                    // Keling, oddiyroq usul: har bir oyat uchun alohida so‘rov yuboramiz, toki 404 chiqmaguncha.
-                    // Buni amalga oshiramiz.
-                    // Biz data ni birinchi fayldan olamiz, undan surah va ayah ni bilamiz.
-                    // Keyin ayah ni 1 dan boshlab, har birini so‘raymiz.
-                    // Bu ko‘p so‘rov bo‘lishi mumkin, lekin ishlaydi.
-                    // Optimallashtirish uchun biz parallel so‘rovlar yuborishimiz mumkin.
 
-                    // Keling, sura uchun barcha oyatlarni yuklaymiz.
-                    // Buning uchun biz sura nomini bilamiz, lekin oyatlar sonini bilmaymiz.
-                    // Biz 1 dan 286 gacha (maksimal oyat soni) sinab ko‘ramiz.
-                    const ayahs = [];
-                    const maxAyah = 286; // Baqara eng ko‘p oyat
-                    for (let ayah = 1; ayah <= maxAyah; ayah++) {
-                        const ayahUrl = `${BASE_URL}/${slug}/${surah}/${ayah}.json`;
-                        try {
-                            const respAyah = await fetch(ayahUrl);
-                            if (respAyah.ok) {
-                                const ayahData = await respAyah.json();
-                                ayahs.push(ayahData);
-                            } else {
-                                // Agar 404 bo‘lsa, keyingi oyatlar ham bo‘lmasligi mumkin, lekin ba'zan sura oralig‘ida bo‘shliq bo‘lishi mumkin.
-                                // Biz 404 ni to‘xtatish uchun ishlatamiz, chunki odatda ketma-ket raqamlangan.
-                                if (respAyah.status === 404) break;
-                            }
-                        } catch (e) {
-                            break;
-                        }
+                    // Ma'lumotlarni massiv shakliga keltirish
+                    if (Array.isArray(data)) {
+                        ayahsData = data;
+                    } else if (data.ayahs) {
+                        ayahsData = data.ayahs;
+                    } else {
+                        ayahsData = [data];
                     }
 
-                    if (ayahs.length === 0) {
+                    // Har bir elementda ayah va text xususiyatlari mavjudligini ta'minlash
+                    ayahsData = ayahsData.map((item, index) => ({
+                        ayah: item.ayah || item.verse || item.number || (index + 1),
+                        text: item.text || item.content || item.translation || ''
+                    }));
+
+                    if (ayahsData.length === 0) {
                         throw new Error('Hech qanday oyat tafsiri topilmadi.');
                     }
 
-                    ayahsData = ayahs;
-
-                    // Meta
+                    // Meta ma'lumotlarni yangilash
                     const editionName = editionSelect.options[editionSelect.selectedIndex]?.text.split(' (')[0] || slug;
                     metaEdition.textContent = editionName;
                     metaSurah.textContent = `${surah}. ${SURAH_NAMES_UZ[surah] || 'Surah'}`;
@@ -662,7 +628,7 @@
                 }
             }
 
-            // ---- Tafsirni ko‘rsatish ----
+            // ---- Tafsirni ko‘rsatish va qidirish ----
             function renderTafsir(searchTerm = '') {
                 const term = searchTerm.trim().toLowerCase();
                 let html = '<div class="tafsir-list">';
@@ -732,7 +698,7 @@
                 }
             }
 
-            // ---- Voqealar ----
+            // ---- Voqealar (Event Listeners) ----
             editionSelect.addEventListener('change', function() {
                 if (this.value) fetchTafsir(this.value, currentSurah);
             });
@@ -750,7 +716,7 @@
                 renderTafsir('');
             });
 
-            // ---- Ishga tushirish ----
+            // ---- Dasturni ishga tushirish ----
             loadEditions();
         })();
     </script>
